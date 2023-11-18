@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+header {
+    background-color: #b30000; /* Dark red header */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#home {
+    background-color: #ff6666; /* Light red background */
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#about,
+#vision-mission,
+#idea-statement {
+    background-color: #fff; /* White background for these sections */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+}
+
+footer {
+    background-color: #b30000; /* Dark red footer */
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    /* Remove position: fixed; and bottom: 0; to make the footer not scrollable */
+    width: 100%;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Contact section styles */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    header nav {
+        text-align: center;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
